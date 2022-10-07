@@ -1,6 +1,12 @@
 # learning_to_obscure_data
 This is a repository for implementation of LODA and proposed adaptive attack.
 
+To reproduce LODA1, run the following command
+```
+python main_cifar.py --seed $SEED --weight 20 --noise 0.2 --starting cifar100 --alpha 1.0 --conv True --weight_conv 1 --conv_part former --max_iter 500 --defense None --result $RESULT --model_type ResNet18CIFAR100 --feat_weight 0
+```
+
+
 Explanability Results\
 ![](./Original_Images_random_100.png?raw=true "Title")
 ![](./SmoothGradCAM++_Standard_model_random_100.png?raw=true "Title")

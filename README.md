@@ -19,7 +19,7 @@ To run the above codes, first create a foler "trained_models/" to store the feat
 
 The feature extractor for LODA1 and LODA2 is "best_CIFAR100_ResNet18None_noise0.0_alpha0.0_results.pt"
 
-The feature extractor for LODA1 and LODA2 is "best_SVHN_EXTRA_ResNet18None_noise0.0_alpha0.0_results.pt"
+The feature extractor for LODA3 is "best_SVHN_EXTRA_ResNet18None_noise0.0_alpha0.0_results.pt"
 
 We also examine the explanability of the model trained on LODA obscured data. The below images are explanation results on clean test images. 
 

@@ -1,4 +1,4 @@
-# learning_to_obscure_data
+# loda
 This is a repository for implementation of LODA and proposed adaptive attack.
 
 To reproduce the generation of obscured data via **LODA1**, run the following command:

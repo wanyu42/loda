@@ -21,9 +21,9 @@ The feature extractor for LODA1 and LODA2 is "best_CIFAR100_ResNet18None_noise0.
 
 The feature extractor for LODA3 is "best_SVHN_EXTRA_ResNet18None_noise0.0_alpha0.0_results.pt"
 
+## Explanability Results\
 We also examine the explanability of the model trained on LODA obscured data. The below images are explanation results on clean test images. 
 
-Explanability Results\
 ![](./Original_Images_random_100.png?raw=true "Title")
 ![](./SmoothGradCAM++_Standard_model_random_100.png?raw=true "Title")
 ![](./SmoothGradCAM++_LODA_model_random_100.png?raw=true "Title")

@@ -12,7 +12,7 @@ python main_cifar.py --seed $SEED --weight 30 --noise 0.2 --starting cifar100 --
 
 To reproduce the generation of obscured data via **LODA3**, run the following command:
 ```
-python main_cifar.py --seed $SEED --weight 1 --noise 0.2 --starting cifar100 --alpha 1.0 --conv True --weight_conv 1 --conv_part latter --max_iter 500 --defense None --result $RESULT --model_type ResNet18SVHN --feat_weight 1
+python main_svhn.py --seed $SEED --weight 1 --noise 0.2 --starting cifar100 --alpha 1.0 --conv True --weight_conv 1 --conv_part latter --max_iter 500 --defense None --result $RESULT --model_type ResNet18SVHN --feat_weight 1
 ```
 
 To run the above codes, first create a foler "trained_models/" to store the feature extractor, which can be downloaded [here](https://drive.google.com/file/d/1CdYLnO9me_g4ReaPiZsFI1ElXR8liFaI/view?usp=sharing).

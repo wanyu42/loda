@@ -11,6 +11,8 @@ torch.manual_seed(123)
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Defense against Deep Leakage.')
+    parser.add_argument('--seed', type=int, default=0,
+                    help='random seed')
     parser.add_argument('--weight', type=float, default="1e-2",
                     help='the weight for image space difference.')
     parser.add_argument('--feat_weight', type=float, default="1",
@@ -85,6 +87,7 @@ def parse_args():
 
 
 args, params = parse_args()
+torch.manual_seed(args.seed)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 originalDataPath="~/dataset"
 
